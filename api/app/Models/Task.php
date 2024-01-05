@@ -14,9 +14,4 @@ class Task extends Model
     protected $casts = [
         'status' => 'string',
     ];
-    
-    // Constantes para os possíveis valores de status
-    const STATUS_PENDING = 'pending';
-    const STATUS_ONGOING = 'ongoing';
-    const STATUS_COMPLETED = 'completed';
 }
