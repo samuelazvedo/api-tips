@@ -23,24 +23,8 @@ The Todo API is a RESTful web service for managing a simple to-do list. It allow
 - MySQL
 - Laravel
 
-
-## Setting Up MySQL with Docker
-To set up a MySQL database for the Todo API using Docker, follow these steps:
-
-### Running MySQL in a Docker Container
-
-- Pull the MySQL Image:
-If you don't already have the MySQL image, pull it from Docker Hub:
-`docker pull mysql:latest`
-
-- Start MySQL Container:
-Use the following command to start a MySQL container. This command uses the latest version of MySQL:
-`docker run --name todo-mysql -e MYSQL_ROOT_PASSWORD=admin -d -p 3306:3306 -p 33060:33060 mysql:latest`
-
-- Check Container:
-Check if the container is running with:
-`docker ps`
-
+## Automatic docker environment
+`docker-compose up -d`
 
 ### Installation
 1. Clone the repository:
