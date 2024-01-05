@@ -1,57 +1,57 @@
 # Todo API
 
-## Visão Geral
-A Todo API é um serviço web RESTful para gerenciar uma lista simples de tarefas (todos). Ela permite que os usuários criem, leiam, atualizem e excluam tarefas de maneira eficiente e fácil de usar.
+## Overview
+The Todo API is a RESTful web service for managing a simple to-do list. It allows users to create, read, update, and delete tasks in an efficient and easy-to-use way.
 
-## Recursos
-- Criar novas tarefas
-- Recuperar uma lista de tarefas
-- Atualizar tarefas existentes
-- Excluir tarefas
+## Features
+- Create new tasks
+- Retrieve a list of tasks
+- Update existing tasks
+- Delete tasks
 
-## Tecnologias Utilizadas
+## Technologies Used
 - Laravel
 - MySQL
 - Git
 
-## Primeiros Passos
+## Getting Started
 
-### Pré-requisitos
+### Prerequisites
 - PHP >= 7.3
 - Composer
-- MySQL ou SQLite
+- MySQL
 - Laravel
 
-### Instalação
-1. Clone o repositório:
+### Installation
+1. Clone the repository:
 `git clone https://github.com/seuusuario/todo-api.git`
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 `cd api`
 
-3. Instale as dependências:
+3. Install the dependencies:
 `composer install`
 
-4. Configure suas variáveis de ambiente:
-- Copie `.env.example` para `.env`
-- Atualize a configuração do banco de dados e outras no `.env`
+4. Configure your environment variables:
+- Copy `.env.example` to `.env`
+- Update the database configuration and others in `.env` 
 
-5. Gere a chave da aplicação:
+5. Generate the application key:
 `php artisan key:generate`
 
-6. Execute as migrações:
+6. Run the migrations:
 `php artisan migrate`
 
-7. Inicie o servidor:
+7. Start the server:
 `php artisan serve`
 
 
-## Endpoints da API
+## API Endpoints
 
-| Método | Endpoint          | Descrição                |
-| ------ | ----------------- | ------------------------ |
-| POST   | /api/todos        | Criar uma nova tarefa    |
-| GET    | /api/todos        | Recuperar todas as tarefas |
-| GET    | /api/todos/{id}   | Recuperar uma única tarefa |
-| PUT    | /api/todos/{id}   | Atualizar uma tarefa existente |
-| DELETE | /api/todos/{id}   | Excluir uma tarefa        |
+| Method | Endpoint          | Description             |
+| ------ | ----------------- | ----------------------- |
+| POST   | /api/tasks        | Create a new task       |
+| GET    | /api/tasks        | Retrieve all tasks      |
+| GET    | /api/tasks/{id}   | Retrieve a single task  |
+| PUT    | /api/tasks/{id}   | Update an existing task |
+| DELETE | /api/tasks/{id}   | Delete a task           |
