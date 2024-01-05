@@ -44,7 +44,7 @@ Check if the container is running with:
 
 ### Installation
 1. Clone the repository:
-`git clone https://github.com/seuusuario/todo-api.git`
+`git clone https://github.com/samuelazvedo/api-tips.git`
 
 2. Navigate to the project directory:
 `cd api`
