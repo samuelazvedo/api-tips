@@ -19,6 +19,7 @@ The Todo API is a RESTful web service for managing a simple to-do list. It allow
 ### Prerequisites
 - PHP >= 7.3
 - Composer
+- Docker
 - MySQL
 - Laravel
 
