@@ -47,7 +47,7 @@ Check if the container is running with:
 `git clone https://github.com/samuelazvedo/api-tips.git`
 
 2. Navigate to the project directory:
-`cd api`
+`cd .\api-tips\api`
 
 3. Install the dependencies:
 `composer install`
