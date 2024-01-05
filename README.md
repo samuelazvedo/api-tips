@@ -37,7 +37,7 @@ The Todo API is a RESTful web service for managing a simple to-do list. It allow
 `composer install`
 
 4. Configure your environment variables:
-- Copy `.env.example` to `.env`
+- Copy `.env.example` to `.env` or just Rename `.env.example` to `.env`
 - Update the database configuration and others in `.env`
 - Use `DB_USERNAME=root` and `DB_PASSWORD=admin` if you are using docker recommendation to Start MySQL Container
 
@@ -47,7 +47,10 @@ The Todo API is a RESTful web service for managing a simple to-do list. It allow
 6. Run the migrations:
 `php artisan migrate`
 
-7. Start the server:
+7. Populate the database with seed:
+`php artisan db:seed`
+
+8. Start the server:
 `php artisan serve`
 
 
